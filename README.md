@@ -14,7 +14,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <p align="center">
-  <img  src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/Capture.PNGG">
+  <img  src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/Capture.PNG">
 </p>
 
 
@@ -29,12 +29,12 @@ Weather app has loads of features. However, the following list is a glimpse of t
 
  * Awesome UI app.
  * Easy to use.
- *Value For Money.
- *Available SourceCode.
- *Your current conditions.
- *What to expect for the day with regards to the weather.
- *A 7-Day forecast.
- *Switching to your current locations based on your computer's Location Services.
+ * Value For Money.
+ * Available SourceCode.
+ * Your current conditions.
+ * What to expect for the day with regards to the weather.
+ * A 7-Day forecast.
+ * Switching to your current locations based on your computer's Location Services.
  
 # Features Instructions
 
