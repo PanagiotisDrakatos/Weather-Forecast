@@ -12,12 +12,6 @@
 <h4 align="center">A minimal java desktop Weather-Forecast app with awesome UI based on <a href="https://docs.oracle.com/javase/tutorial/uiswing/">Swing</a>.</h4>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[![Build Status](https://travis-ci.org/PanagiotisDrakatos/EasyDragDrop.svg?branch=master)](https://travis-ci.org/PanagiotisDrakatos/EasyDragDrop)
-[![star this repo](http://githubbadges.com/star.svg?user=PanagiotisDrakatos&repo=EasyDragDrop&style=flat&color=fff&background=007ec6)](https://github.com/PanagiotisDrakatos/EasyDragDrop)
-[![GitHub Issues](https://img.shields.io/github/issues/PanagiotisDrakatos/EasyDragDrop.svg)](https://github.com/PanagiotisDrakatos/EasyDragDrop/issues)
-[![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/PanagiotisDrakatos/EasyDragDrop.svg)](https://travis-ci.org/PanagiotisDrakatos/EasyDragDrop/pull_requests)
-
 
 <p align="center">
   <img  src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/Capture.PNGG">
