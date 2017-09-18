@@ -1,3 +1,29 @@
+
+<h1 align="center">
+  <br>
+    <img align="left"  width="200" src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/dragdrop_hd.gif">
+    <img width="175" src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/logo.png">
+    <img align="right"  width="200" src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/dragdrop_hd.gif">
+  <br>
+  Weather-Forecast Implementation
+  <br>
+</h1>
+
+<h4 align="center">A minimal java desktop Weather-Forecast app with awesome UI based on <a href="https://docs.oracle.com/javase/tutorial/uiswing/">Swing</a>.</h4>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Build Status](https://travis-ci.org/PanagiotisDrakatos/EasyDragDrop.svg?branch=master)](https://travis-ci.org/PanagiotisDrakatos/EasyDragDrop)
+[![star this repo](http://githubbadges.com/star.svg?user=PanagiotisDrakatos&repo=EasyDragDrop&style=flat&color=fff&background=007ec6)](https://github.com/PanagiotisDrakatos/EasyDragDrop)
+[![GitHub Issues](https://img.shields.io/github/issues/PanagiotisDrakatos/EasyDragDrop.svg)](https://github.com/PanagiotisDrakatos/EasyDragDrop/issues)
+[![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/PanagiotisDrakatos/EasyDragDrop.svg)](https://travis-ci.org/PanagiotisDrakatos/EasyDragDrop/pull_requests)
+
+
+<p align="center">
+  <img  src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/Capture.PNGG">
+</p>
+
+
 # Basic Overview
 As the weather app options continue to grow in the near future, this new and unique weather app will be placed among the top-rated offerings. This Weather Desktop App delivers the basic weather information among with useful informations(Pressure clouds,Wind Speed) to your Windows computer in a clean, eye-catching and easy to use package together with the available source code.
 
