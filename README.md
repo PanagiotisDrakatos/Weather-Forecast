@@ -1,3 +1,27 @@
+# Basic Overview
+As the weather app options continue to grow in the near future, this new and unique weather app will be placed among the top-rated offerings. This Weather Desktop App delivers the basic weather information among with useful informations(Pressure clouds,Wind Speed) to your Windows computer in a clean, eye-catching and easy to use package together with the available source code.
+
+ 
+
+The weather app supports global locations and has customizable Live Tile support. It is a nice option for the times you just need to check in on the weather to plan for your week ahead, your weekend plans or any other times when the weather could play a factor. This WeatherAPP has a host of updates since released, with a few new features added to the mix.
+# Benefits of Weather-Forecast
+Weather app has loads of features. However, the following list is a glimpse of that huge features list.
+
+ * Awesome UI app.
+ * Easy to use.
+ *Value For Money.
+ *Available SourceCode.
+ *Your current conditions.
+ *What to expect for the day with regards to the weather.
+ *A 7-Day forecast.
+ *Switching to your current locations based on your computer's Location Services.
+ 
+# Features Instructions
+
+ * Maven Sample project Included with proper way to construct an app.
+ * The working Java sample includes both front End and Backend source code of the application.
+ * It is tested and ready to be used for commercial  purposes or to adapt it on any desirable desktop app specification you want.
+
 # What You will Need?
 * About 15 minutes.
 * A favorite JAVA text editor or IDE.
