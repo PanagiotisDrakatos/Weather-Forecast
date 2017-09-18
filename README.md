@@ -2,7 +2,7 @@
 <h1 align="center">
   <br>
     <img align="left"  width="200" src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/dragdrop_hd.gif">
-    <img width="150" src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/logo.jpg">
+    <img width="150" src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/logos.jpg">
     <img align="right"  width="200" src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/dragdrop_hd.gif">
   <br>
   Weather-Forecast Implementation
