@@ -9,7 +9,7 @@
   <br>
 </h1>
 
-<h4 align="center">A minimal java desktop Weather-Forecast app with awesome UI based on <a href="https://docs.oracle.com/javase/tutorial/uiswing/">Swing</a>.</h4>
+<h4 align="center">A minimal java  Weather-Forecast app with awesome UI based on <a href="https://docs.oracle.com/javase/tutorial/uiswing/">Swing</a>.</h4>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
