@@ -61,12 +61,12 @@ Weather app has loads of features. However, the following list is a glimpse of t
 
 
 # Support
-Please [open an issue](https://github.com/PanagiotisDrakatos/EasyDragDrop/issues) for support or even more [open a pull request](https://github.com/PanagiotisDrakatos/EasyDragDrop/pulls).
+Please [open an issue](https://github.com/PanagiotisDrakatos/Weather-Forecast/issues) for support or even more [open a pull request](https://github.com/PanagiotisDrakatos/Weather-Forecast/pulls).
 
 
 
 # License
-<p> This project is licensed under the MIT License - see the <a href="https://github.com/PanagiotisDrakatos/EasyDragDrop/blob/master/LICENSE"> Licence.md </a> file for details</p>
+<p> This project is licensed under the Apache License 2.0  see the <a href="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/LICENSE"> Licence.md </a> file for details</p>
 
 
 # Contacts
@@ -74,9 +74,9 @@ Don't hesitate to ask me whatever you want. Stay tuned for more awesome projects
 
 # Contributing
 
-Please contribute using [Github Flow](https://github.com/PanagiotisDrakatos/EasyDragDrop). Create a branch, add commits.
+Please contribute using [Github Flow](https://github.com/PanagiotisDrakatos/Weather-Forecast). Create a branch, add commits.
 
- 1. Fork it: git clone https://github.com/PanagiotisDrakatos/EasyDragDrop.git
+ 1. Fork it: git clone https://github.com/PanagiotisDrakatos/Weather-Forecast.git
  2. Create your feature branch: git checkout -b my-new-feature
  3. Commit your changes: git commit -am 'Add some feature'
  4. Push to the branch: git push origin my-new-feature
