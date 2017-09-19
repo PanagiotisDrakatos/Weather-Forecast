@@ -1,0 +1,25 @@
+
+sudo: false
+
+language: java
+jdk:
+  - oraclejdk8
+
+  
+
+install: /bin/true
+
+script:
+  - mvn verify
+
+
+notifications:
+   email:
+    recipients:
+      - panagiotisdrakatos@gmail.com
+    on_success: change
+on_failure: always
+
+cache:
+  directories:
+    - '$HOME/.m2/repository'
