@@ -12,6 +12,11 @@
 <h4 align="center">A minimal java  Weather-Forecast app with awesome UI based on <a href="https://docs.oracle.com/javase/tutorial/uiswing/">Swing</a>.</h4>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Build Status](https://travis-ci.org/PanagiotisDrakatos/Weather-Forecast.svg?branch=master)](https://travis-ci.org/PanagiotisDrakatos/Weather-Forecast)
+[![star this repo](http://githubbadges.com/star.svg?user=PanagiotisDrakatos&repo=Weather-Forecast&style=flat&color=fff&background=007ec6)](https://github.com/PanagiotisDrakatos/Weather-Forecast)
+[![GitHub Issues](https://img.shields.io/github/issues/PanagiotisDrakatos/Weather-Forecast.svg)](https://github.com/PanagiotisDrakatos/Weather-Forecast/issues)
+[![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/PanagiotisDrakatos/Weather-Forecast.svg)](https://travis-ci.org/PanagiotisDrakatos/Weather-Forecast/pull_requests)
 
 <p align="center">
   <img  src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/ezgif.com-video-to-gif.gif">
