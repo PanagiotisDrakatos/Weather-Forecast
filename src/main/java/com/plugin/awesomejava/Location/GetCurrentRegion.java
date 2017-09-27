@@ -33,7 +33,7 @@ public class GetCurrentRegion {
              if (locationServices == null) {
                 return entry;
             }
-            String City = locationServices.countryName;
+            String City = locationServices.city;
             String CountryCode = locationServices.countryCode;
 
             entry = new FeedEntry();
