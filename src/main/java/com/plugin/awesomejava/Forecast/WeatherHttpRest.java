@@ -11,7 +11,6 @@ import javax.swing.ImageIcon;
 
 public class WeatherHttpRest {
 
-    private static final boolean isMetric = true;
     private static final String DEGREE = "\u00b0";
 
     private final FeedEntry entry;
@@ -19,11 +18,14 @@ public class WeatherHttpRest {
     private ForecastValues forecastValue;
 
     private HashMap<DynJLabelObject, ForecastValues> WeatherMaphm;
+    
+    private boolean isMetric;
 
-    public WeatherHttpRest(FeedEntry entry, final DynamicJLabelList DynJLabelList) {
+    public WeatherHttpRest(FeedEntry entry, final DynamicJLabelList DynJLabelList, boolean isMetric) {
         this.entry = entry;
         this.weather = new WeatherImp(DynJLabelList);
         WeatherMaphm = new HashMap<DynJLabelObject, ForecastValues>();
+        this.isMetric = isMetric;
     }
 
     public HashMap<DynJLabelObject, ForecastValues> HttpRestRequest() {
@@ -56,18 +58,21 @@ public class WeatherHttpRest {
     private void IntializeForecastValues(final DailyForecast.Forecast dayForecast,
             final DailyForecast.Forecast.Temperature temperature,
             final DailyForecast.Forecast.Weather weather) {
+    	String temperatureUnit = (isMetric) ? "C" : "F";
+    	String windSpeedUnit = (isMetric) ? "m/s" : "mph";
+    	
         forecastValue = new ForecastValues();
 
         forecastValue.setDateInformations("Last Updated: " + String.valueOf(dayForecast.getDateTime()));
 
-        forecastValue.setMinTemperature(TemperatureRoundSplit.SplitStringValue(temperature.getMinimumTemperature()) + DEGREE + "C");
-        forecastValue.setMaxTemperature(TemperatureRoundSplit.SplitStringValue(temperature.getMaximumTemperature()) + DEGREE + "C");
-        forecastValue.setDateTemperature(TemperatureRoundSplit.SplitStringValue(temperature.getDayTemperature()) + DEGREE + "C");
+        forecastValue.setMinTemperature(TemperatureRoundSplit.SplitStringValue(temperature.getMinimumTemperature()) + DEGREE + temperatureUnit);
+        forecastValue.setMaxTemperature(TemperatureRoundSplit.SplitStringValue(temperature.getMaximumTemperature()) + DEGREE + temperatureUnit);
+        forecastValue.setDateTemperature(TemperatureRoundSplit.SplitStringValue(temperature.getDayTemperature()) + DEGREE + temperatureUnit);
 
         forecastValue.setHumidity("Humidity: " + String.valueOf(dayForecast.getHumidity()) + "%");
         forecastValue.setPressure("Pressure: " + String.valueOf(dayForecast.getPressure()) + " mbar ");
         forecastValue.setClouds(String.valueOf(dayForecast.getPercentageOfClouds()) + "%");
-        forecastValue.setWind_Speed("Wind Speed : " + String.valueOf(dayForecast.getWindSpeed()) + "m/s");
+        forecastValue.setWind_Speed("Wind Speed : " + String.valueOf(dayForecast.getWindSpeed()) + windSpeedUnit);
         forecastValue.setDescription(weather.getWeatherDescription());
         forecastValue.setDayofWeek(dayForecast.getDateTime());
 

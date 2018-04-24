@@ -82,6 +82,7 @@ public class MainWeatherFrame extends javax.swing.JFrame {
     private Timer timer = null;
     private DynamicJLabelList DynJLabelList;
     private final FeedEntry entry;
+    private boolean isMetric = true;
 
     public MainWeatherFrame(FeedEntry entry) {
         this.entry = entry;
@@ -328,6 +329,11 @@ public class MainWeatherFrame extends javax.swing.JFrame {
         MaxTempLabel.setFont(new Font("Dialog", 0, 34)); // NOI18N
         MaxTempLabel.setForeground(new Color(255, 255, 255));
         MaxTempLabel.setText("24 ℃");
+        MaxTempLabel.addMouseListener(new MouseAdapter() {
+        	public void mouseClicked(MouseEvent evt) {
+        		TempLabelMouseClicked(evt);
+        	}
+        });
         jPanel2.add(MaxTempLabel, new AbsoluteConstraints(780, 240, 100, -1));
 
         jLabel13.setFont(new Font("Segoe UI", 1, 18)); // NOI18N
@@ -338,6 +344,11 @@ public class MainWeatherFrame extends javax.swing.JFrame {
         MinTempLabel.setFont(new Font("Dialog", 0, 34)); // NOI18N
         MinTempLabel.setForeground(new Color(255, 255, 255));
         MinTempLabel.setText("11 ℃");
+        MinTempLabel.addMouseListener(new MouseAdapter() {
+        	public void mouseClicked(MouseEvent evt) {
+        		TempLabelMouseClicked(evt);
+        	}
+        });
         jPanel2.add(MinTempLabel, new AbsoluteConstraints(780, 150, 100, 40));
 
         jLabel11.setFont(new Font("Segoe UI", 1, 18)); // NOI18N
@@ -431,7 +442,7 @@ public class MainWeatherFrame extends javax.swing.JFrame {
     private void RefreshIconLabelMouseClicked(MouseEvent evt) {                                              
         timer.stop();
         final BackgroundWorker worker = new BackgroundWorker(entry, DynJLabelList, CurrentTempLabel, DayLambel, DescriptionLabel,
-                DetailedLabel, HumidityLabel, PressureJLabel, MaxTempLabel, MinTempLabel, WindLabel, WeatherDayIcon, RefreshIconLabel);
+                DetailedLabel, HumidityLabel, PressureJLabel, MaxTempLabel, MinTempLabel, WindLabel, WeatherDayIcon, RefreshIconLabel, isMetric);
         worker.execute();
         timer.restart();
     }                                             
@@ -446,7 +457,12 @@ public class MainWeatherFrame extends javax.swing.JFrame {
 
     private void IconMouseEnteredJLabel(MouseEvent evt) {                                        
         RefreshIconLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
-    }                                       
+    }                                 
+    
+    private void TempLabelMouseClicked(MouseEvent evt) {
+    	this.isMetric = !this.isMetric;
+    	RefreshIconLabelMouseClicked(evt);
+    }
 
     private void InitTimer() {
         timer = new Timer(delay, new ActionListener() {      // Timer 4 seconds

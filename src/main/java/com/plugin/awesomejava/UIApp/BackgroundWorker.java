@@ -30,9 +30,11 @@ public class BackgroundWorker extends SwingWorker<String, Void> {
     private final JLabel WindLabel;
     private final JLabel WeatherDayIcon;
     private final JLabel RefreshIconLabel;
+    
+    private final boolean isMetric;
 
     public BackgroundWorker(FeedEntry entrys, JLabel CurrentTempLabel, JLabel DayLambel, JLabel DescriptionLabel, JLabel DetailedLabel,
-            JLabel HumidityLabel, JLabel MaxTempLabel, JLabel MinTempLabel, JLabel WindLabel) {
+            JLabel HumidityLabel, JLabel MaxTempLabel, JLabel MinTempLabel, JLabel WindLabel, boolean isMetric) {
         this.entrys = entrys;
         this.CurrentTempLabel = CurrentTempLabel;
         this.DayLambel = DayLambel;
@@ -46,11 +48,13 @@ public class BackgroundWorker extends SwingWorker<String, Void> {
         this.DynJLabelList = null;
         this.WeatherDayIcon = null;
         this.RefreshIconLabel = null;
+        
+        this.isMetric = isMetric;
     }
 
     public BackgroundWorker(FeedEntry entrys, DynamicJLabelList DynJLabelList, JLabel CurrentTempLabel, JLabel DayLambel,
             JLabel DescriptionLabel, JLabel DetailedLabel, JLabel HumidityLabel, JLabel PressureJLabel, JLabel MaxTempLabel,
-            JLabel MinTempLabel, JLabel WindLabel, JLabel WeatherDayIcon, JLabel RefreshIconLabel) {
+            JLabel MinTempLabel, JLabel WindLabel, JLabel WeatherDayIcon, JLabel RefreshIconLabel, boolean isMetric) {
         this.entrys = entrys;
         this.DynJLabelList = DynJLabelList;
         this.CurrentTempLabel = CurrentTempLabel;
@@ -64,13 +68,15 @@ public class BackgroundWorker extends SwingWorker<String, Void> {
         this.WindLabel = WindLabel;
         this.WeatherDayIcon = WeatherDayIcon;
         this.RefreshIconLabel = RefreshIconLabel;
+        
+        this.isMetric = isMetric;
     }
 
     @Override
     protected String doInBackground() throws Exception {
         this.RefreshIconLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ring.gif")));
 
-        final WeatherHttpRest doRequest = new WeatherHttpRest(entrys, DynJLabelList);
+        final WeatherHttpRest doRequest = new WeatherHttpRest(entrys, DynJLabelList, isMetric);
 
         final HashMap<DynJLabelObject, ForecastValues> ForecastMap = doRequest.HttpRestRequest();
         if (ForecastMap.isEmpty()) {
